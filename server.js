@@ -11,7 +11,7 @@ app.use(cookieParser());
 
 
 const corsOptions = {
-  origin: 'http://localhost:3001', 
+  origin: 'https://theater-seat-booking-app-using-react.vercel.app', 
   credentials: true, 
 };
 app.use(cors(corsOptions));
